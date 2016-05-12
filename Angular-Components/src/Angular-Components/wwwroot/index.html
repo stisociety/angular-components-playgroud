@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="ssmart">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/animate.css/animate.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <title>SSmart :: Componentes</title>
+</head>
+
+<body ng-cloak>
+
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">SSmnart</a>
+            </div>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a ng-link="['Atendimento']">Realizar atendimento</a></li>
+                <li><a ng-link="['Contato']">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Card 1</h2>
+                <atendimento-card1></atendimento-card1>
+            </div>
+            <div class="col-md-6">
+                <h2>Card 2</h2>
+                <atendimento-card2></atendimento-card2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Card 3</h2>
+                <autoadesao-card1></autoadesao-card1>
+            </div>
+            <div class="col-md-6">
+                <h2>Card 4</h2>
+                <autoadesao-card2></autoadesao-card2>
+            </div>
+        </div>
+
+        <hr />
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Atendimento atender sócio</h2>
+                <atendimento-atender-socio></atendimento-atender-socio>
+            </div>
+        </div>
+
+        <hr />
+
+        <h1 style="margin-top: 100px;">Módulos fechados</h1>      
+
+        <h2>atendimento-main</h2>       
+
+        <atendimento-main></atendimento-main>
+
+        <h2>auto-adesao</h2>       
+                
+        <auto-adesao></auto-adesao>
+
+    </div>
+
+    <!-- Jquery-->
+    <script src="lib/jquery/dist/jquery.js"></script>
+
+    <!-- Angular-->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-component-router/angular_1_router.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+
+    <!-- Módulo -->
+    <script src="app/ssmart.module.js"></script>
+
+    <!-- Atendimento -->
+    <script src="app/atendimento/ssmart.atendimento.module.js"></script>
+    <script src="app/atendimento/cards/atendimento.card.dataservice.js"></script>
+    <script src="app/atendimento/cards/atendimento.main.component.js"></script>
+    <script src="app/atendimento/cards/atendimento-card-corpo.component.js"></script>
+    <link href="app/atendimento/cards/card1/card.css" rel="stylesheet" />
+    <script src="app/atendimento/cards/card1/ssmart.atendimento.card1.js"></script>
+    <link href="app/atendimento/cards/card2/card.css" rel="stylesheet" />
+    <script src="app/atendimento/cards/card2/ssmart.atendimento.card2.js"></script>
+    <link href="app/atendimento/atendersocio/atendersocio.css" rel="stylesheet" />
+    <script src="app/atendimento/atendersocio/ssmart.atendersocio.js"></script>
+
+    <link href="app/autoadesao/cards/card1/card.css" rel="stylesheet" />
+    <script src="app/autoadesao/cards/card1/ssmart.autoadesao.card1.js"></script>
+    <link href="app/autoadesao/cards/card2/card.css" rel="stylesheet" />
+    <script src="app/autoadesao/cards/card2/ssmart.autoadesao.card2.js"></script>
+
+    <script src="app/autoadesao/ssmart.autoadesao.js"></script>
+
+</body>
+</html>
