@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": 1,
+    "nome": "Componente 1",
+    "descricao": "Este componente é responsável por tais comportamentos.",
+    "template": "<atendimento-card1></atendimento-card1>"
+  },
+  {
+    "id": 2,
+    "nome": "Componente 2",
+    "descricao": "Este componente é responsável por tais comportamentos.",
+    "template": "<atendimento-card2></atendimento-card2>"
+  },
+  {
+    "id": 3,
+    "nome": "Componente 1",
+    "descricao": "Este componente é responsável por tais comportamentos.",
+    "template": "<atendimento-card1></atendimento-card1>"
+  },
+  {
+    "id": 4,
+    "nome": "Componente 2",
+    "descricao": "Este componente é responsável por tais comportamentos.",
+    "template": "<atendimento-card2></atendimento-card2>"
+  }
+]

@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Angular-Components", "src\Angular-Components\Angular-Components.xproj", "{C374ED84-6602-400C-BD0C-CD6DDE3BD240}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Components-Router", "src\Components-Router\Components-Router.xproj", "{F4945B9A-C3A1-40CF-A204-FCD605F8B17E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{C374ED84-6602-400C-BD0C-CD6DDE3BD240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C374ED84-6602-400C-BD0C-CD6DDE3BD240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C374ED84-6602-400C-BD0C-CD6DDE3BD240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4945B9A-C3A1-40CF-A204-FCD605F8B17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4945B9A-C3A1-40CF-A204-FCD605F8B17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4945B9A-C3A1-40CF-A204-FCD605F8B17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4945B9A-C3A1-40CF-A204-FCD605F8B17E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C374ED84-6602-400C-BD0C-CD6DDE3BD240} = {3FF343DB-23A2-4874-AA4F-238FF51BEC8C}
+		{F4945B9A-C3A1-40CF-A204-FCD605F8B17E} = {3FF343DB-23A2-4874-AA4F-238FF51BEC8C}
 	EndGlobalSection
 EndGlobal

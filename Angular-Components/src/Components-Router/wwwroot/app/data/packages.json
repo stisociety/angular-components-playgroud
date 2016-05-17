@@ -1,0 +1,54 @@
+﻿[
+  {
+    "Name": "app.package1",
+    "UseRouteFile": true,
+    "Dependencies": [
+      "app/package1/ssmart.package1.js",
+      "app/package1/package1.routes.js"
+    ]
+  },
+  {
+    "Name": "app.package2",
+    "UseRouteFile": true,
+    "Dependencies": [
+      "app/package2/ssmart.listausuarios.js",
+      "app/package2/package2.routes.js",
+      "app/package2/package2.controller.js"
+    ]
+  },
+  {
+    "Name": "app.package3",
+    "UseRouteFile": true,
+    "Dependencies": [
+      "app/package3/package3.module.js",
+      "app/package3/package3.routes.js",
+      "app/package3/package3.dataservice.js",
+      "app/package3/package3.controller.js"
+    ]
+  },
+  {
+    "Name": "ssmart.atendimento",
+    "UseRouteFile": true,
+    "Dependencies": [
+      "app/atendimento/ssmart.atendimento.module.js",
+      "app/atendimento/cards/atendimento.card.dataservice.js",
+      "app/atendimento/cards/atendimento-card-corpo.component.js",
+      "app/atendimento/cards/card1/card.css",
+      "app/atendimento/cards/card1/ssmart.atendimento.card1.js",
+      "app/atendimento/cards/card2/card.css",
+      "app/atendimento/cards/card2/ssmart.atendimento.card2.js"
+
+    ]
+  },
+  {
+    "Name": "ssmart.autoadesao",
+    "UseRouteFile": true,
+    "Dependencies": [
+      "app/autoadesao/ssmart.autoadesao.js",
+      "app/autoadesao/cards/card1/card.css",
+      "app/autoadesao/cards/card1/ssmart.autoadesao.card1.js",
+      "app/autoadesao/cards/card2/card.css",
+      "app/autoadesao/cards/card2/ssmart.autoadesao.card2.js"
+    ]
+  }
+]

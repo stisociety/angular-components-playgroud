@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="ssmart">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/animate.css/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>SSmart :: Componentes</title>
+</head>
+
+<body ng-cloak>
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">SSmnart</a>
+            </div>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#/package1">Introdução</a></li>
+                <li><a href="#/package2">Usuários</a></li>
+                <li><a href="#/package3">Outros Usuários</a></li>
+                <li><a href="#/atendimento">Atendimento</a></li>
+                <li><a href="#/autoadesao">Adesão</a></li>
+                <li><a href="#">{{vm.estado | json}}</a></li>
+                <li><a href="#">{{vm.teste}}</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div data-ui-view></div>
+    </div>
+    
+    <!-- Jquery-->
+    <script src="lib/jquery/dist/jquery.js"></script>
+
+    <!-- Angular-->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/oclazyload/dist/oclazyload.min.js"></script>
+    <script src="lib/ui-router/release/angular-ui-router.min.js"></script>
+    <script src="lib/angular-component-router/angular_1_router.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+
+    <!-- Módulo -->
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/core.config.js"></script>
+    <script src="app/common/router/router.module.js"></script>
+    <script src="app/common/router/routehelper.js"></script>
+
+    <script src="app/ssmart.module.js"></script>
+    
+    <!-- Atendimento
+    <script src="app/atendimento/ssmart.atendimento.routes.js"></script>
+    <script src="app/atendimento/cards/atendimento.card.dataservice.js"></script>
+    <script src="app/atendimento/cards/atendimento.main.component.js"></script>
+    <script src="app/atendimento/cards/atendimento-card-corpo.component.js"></script>
+    <link href="app/atendimento/cards/card1/card.css" rel="stylesheet" />
+    <script src="app/atendimento/cards/card1/ssmart.atendimento.card1.js"></script>
+    <link href="app/atendimento/cards/card2/card.css" rel="stylesheet" />
+    <script src="app/atendimento/cards/card2/ssmart.atendimento.card2.js"></script>
+    <link href="app/atendimento/atendersocio/atendersocio.css" rel="stylesheet" />
+    <script src="app/atendimento/atendersocio/ssmart.atendersocio.js"></script> -->
+
+    <!-- Auto-adesão 
+    <script src="app/autoadesao/ssmart.autoadesao.routes.js"></script>
+    <link href="app/autoadesao/cards/card1/card.css" rel="stylesheet" />
+    <script src="app/autoadesao/cards/card1/ssmart.autoadesao.card1.js"></script>
+    <link href="app/autoadesao/cards/card2/card.css" rel="stylesheet" />
+    <script src="app/autoadesao/cards/card2/ssmart.autoadesao.card2.js"></script>
+
+    <script src="app/autoadesao/ssmart.autoadesao.js"></script>-->
+
+</body>
+</html>

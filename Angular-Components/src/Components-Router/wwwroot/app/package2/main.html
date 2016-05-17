@@ -1,0 +1,12 @@
+﻿<h1>{{vm.Title}}</h1>
+
+<table cellpadding="10">
+    <tr>
+        <td>Id</td>
+        <td>Nome</td>
+    </tr>
+    <tr data-ng-repeat="usuario in vm.Usuarios">
+        <td>{{usuario.id}}</td>
+        <td>{{usuario.nome}}</td>
+    </tr>
+</table>
