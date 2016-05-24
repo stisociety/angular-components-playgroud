@@ -10,6 +10,7 @@
         var vm = this;
         vm.estado = $state.get();
         vm.teste = "teste 123";
+           
     }
 
 })();

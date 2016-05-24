@@ -10,3 +10,27 @@
         <td>{{usuario.nome}}</td>
     </tr>
 </table>
+<br />
+<br />
+
+<h1> NgClick </h1>
+
+<br/>
+<div>
+    <a style="cursor: pointer;" ng-click="vm.RealizarAdesao()">Realizar adesão</a>
+    <span>{{vm.ValorAdesao}}</span>
+</div>
+<div>
+    <a style="cursor: pointer;" ng-click="vm.RealizarEdicao()">Realizar edição</a>
+    <span>{{vm.ValorEdicao}}</span>
+</div>
+
+<br />
+<div>
+    <button ng-click="count = count + 1" ng-init="count=0">
+        Increment
+    </button>
+    <span>
+        count: {{count}}
+    </span>
+</div>
